@@ -1,1 +1,1 @@
-worker: sh target/bin/langbot
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* tr.Work.Main
